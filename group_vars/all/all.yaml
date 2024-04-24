@@ -1,0 +1,3 @@
+ansible_user: "user-ansible"
+ansible_user_group: "wheel"
+ansible_user_pass: "{{ vault_ansible_user_pass }}"

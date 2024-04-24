@@ -1,0 +1,12 @@
+all:
+  children:
+    production:
+      hosts:
+        prodserver:
+          ansible_host: 192.168.11.252
+          ansible_user: root
+    staging:
+      hosts:
+        testserver:
+          ansible_host: 192.168.11.251
+          ansible_user: root
